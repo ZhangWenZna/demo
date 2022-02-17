@@ -14,7 +14,7 @@ public class UserController {
     UserService userService;
 
     @RequestMapping(value = "/user/age",  method = RequestMethod.GET )
-    public int getAgeOfUser(){
-        return userService.getAgeByUsername("springbootdemo");
+    public Integer getAgeOfUser(){
+        return userService.getAgeByUsername("张文赞");
     }
 }

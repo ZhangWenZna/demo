@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserMapper {
-    int getAgeByUsername(String username);
+    Integer getAgeByUsername(String username);
 }
